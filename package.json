@@ -6,9 +6,7 @@
 		"dev": "nodemon server.js",
 		"start": "NODE_ENV=production node server.js",
 		"server": "NODE_ENV=production node server.js",
-		"build": "next build",
-		"now-build": "next build && echo 'Building'",
-		"deploy": "now --public"
+		"build": "next build"
 	},
 	"author": "Angie Cortez",
 	"license": "ISC",
